@@ -1,6 +1,6 @@
-package model;
+package com.nayang.operatemodel;
 
-public class Province {
+public class ProvinceManager {
 	
 	private int m_provinceId;
 	private String m_provinceName;

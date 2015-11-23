@@ -1,6 +1,6 @@
-package model;
+package com.nayang.operatemodel;
 
-public class County {
+public class CountyManager {
 
 	private int m_countyId;
 	private String m_countyName;

@@ -1,11 +1,11 @@
-package model;
+package com.nayang.operatemodel;
 
-public class City {
+public class CityManager {
 
 	private int m_cityId;
 	private String m_cityName;
 	private String m_cityCode;
-	private String m_provinceId;
+	private int m_provinceId;
 	
 	public int getM_cityId() {
 		return m_cityId;
@@ -25,11 +25,11 @@ public class City {
 	public void setM_cityCode(String m_cityCode) {
 		this.m_cityCode = m_cityCode;
 	}
-	public String getM_provinceId() {
+	public int getM_provinceId() {
 		return m_provinceId;
 	}
-	public void setM_provinceId(String m_provinceId) {
-		this.m_provinceId = m_provinceId;
+	public void setM_provinceId(int provinceId) {
+		this.m_provinceId = provinceId;
 	}
 	
 }
